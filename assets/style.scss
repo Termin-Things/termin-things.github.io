@@ -1,0 +1,237 @@
+@font-face {
+    font-family: Topaz-8;
+    src: url("..\Fonts\Topaz-8.tff");
+    src: url("..\Fonts\Topaz-8.woff");
+}
+
+
+body {
+    background-image: url("../images/spacewall.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    font-size: auto;
+    color: black;
+    margin-bottom: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Topaz-8;
+    font-weight: bolder;
+    width: 50%;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+h2 {
+    display: block;
+    background-color: white;
+    text-align: center;
+    font-size: 44px;
+    color: #ffffff;
+    font-family: Topaz-8;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+p1 {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    font-size: 50px;
+    color: #F1C40F;
+    margin-bottom: .3ex;
+    font-family: Topaz-8;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+    height: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+p2 {
+    display: block;
+    background-color: #000000;
+    text-align: left;
+    font-size: 30px;
+    color: #F1C40F;
+    margin-bottom: .3ex;
+    font-family: Topaz-8;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+p3 {
+    display: block;
+    background: white;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: .3ex;
+    font-family: Topaz-8;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+p4 {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 40px;
+    color: #F1C40F;
+    margin-bottom: .3ex;
+    font-family: Topaz-8;
+    margin: 50px;
+    width: 70%;
+    height: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+p5 {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 33px;
+    color: #F1C40F;
+    margin-bottom: .3ex;
+    font-family: Topaz-8;
+    margin: 50px;
+    width: 70%;
+    height: auto;
+    border: 2px solid white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+.vids {
+    display: block;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-block: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 459px;
+    height: 259px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 2px black, inset 0 2px 0 2px black, 0 0 0 black, inset 0 2px 0 2px black;
+}
+
+.pics1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    padding: 5px;
+}
+
+.pics2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.pics3 {
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    align-content: center;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #000;
+    position: fixed;
+    align-content: center;
+    
+}
+
+td.header{
+        text-align: center;
+        width: 20%;
+}
+
+td.header a:visited{
+    color: #F1C40F;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+td.header a{
+    color: #F1C40F;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    object-position: center;
+}
+
+@keyframes kspin3D {
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+.cspin3D {
+    animation: kspin3D 5s ease-in-out infinite;
+}
+
+.img {
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.table {
+    width: 50%;
+    height: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
