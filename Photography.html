@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<title>Photography</title>
+</head>
+<body>
+
+<table class="table">
+        <tr>
+            <td class="header">
+                <a href="https://www.youtube.com/@TerminThings">
+                    <img class="img" src="./images/YouTube1.png" onmouseover="this.src='./images/Youtube2.png'" onmouseout="this.src='./images/Youtube1.png'" />
+                </a>
+            </td>
+            <td class="header">
+                <a href="Art.html">
+                    <img class="img" src="./images/Home1.png" onmouseover="this.src='./images/Home2.png'" onmouseout="this.src='./images/Home1.png'" />
+                </a>
+            </td>
+            <td class="header">
+                <a href="Videography.html">
+                    <img class="img" src="./images/Video1.png" onmouseover="this.src='./images/Video2.png'" onmouseout="this.src='./images/Video1.png'" />
+                </a>
+            </td>
+            <td class="header cspin3D">
+                <a href="index.html">
+                    <img height="125px" width="125px" src="images/logo.png">
+                </a>
+            </td>
+            <td class="header">
+                <a href="Photography.html">
+                    <img class="img" src="./images/Photo1.png" onmouseover="this.src='./images/Photo2.png'" onmouseout="this.src='./images/Photo1.png'" />
+                </a>
+            </td>
+            <td class="header">
+                <a href="About.html">
+                    <img class="img" src="./images/About1.png" onmouseover="this.src='./images/About2.png'" onmouseout="this.src='./images/About1.png'" />
+                </a>
+            </td>
+            <td class="header">
+                <a href="https://www.twitch.tv/termin_gaming">
+                    <img class="img" src="./images/Twitch1.png" onmouseover="this.src='./images/Twitch2.png'" onmouseout="this.src='./images/Twitch1.png'" />
+                </a>
+            </td>
+        </tr>
+    </table>
+     
+
+
+    <h1> Photography </h1>
+    <br />
+
+
+    <p3>
+    Photography is a hobby of mine, 
+    <br />
+    and here is a showcase of some of my work!
+    </p3>
+   
+    <br />
+
+
+    <p3> 
+    Back in April of 2024, 
+    <br />
+    I was able to take this photo of the total solar eclipse that swept across the US.
+    </p3>
+
+    <img width="500" height="375px" src="./images/Eclipse.jpg" class="pics1" />
+    <br />
+
+    <p3> 
+    I spent the spring semester of my third year in university in Ireland.
+     <br>
+    All the photos shown below are from my trip to Ireland
+    </p3>
+
+    <br>
+    <img width="500px" height="375px" src="./images/SeaSidePath.jpg" class="pics1">
+    <img width="500px" height="375px" src="./images/Church.jpg" class="pics1">
+    <img width="500px" height="375px" src="./images/Trees.jpg" class="pics1">
+
+ <br />
+
+
+<script>
+    function mouseoverimg(imgid) {
+        imgid.src = imgid.src.replace("1.png", "2.png")
+    }
+    function mouseoutimg(imgid) {
+        imgid.src = imgid.src.replace("2.png", "1.png")
+    }
+</script>
+<audio src="Music/huhneat.mp3" autoplay loop></audio>
+</body>
+</html>
