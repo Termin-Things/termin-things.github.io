@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<title>Videography</title>
+</head>
+<body>
+
+<table width="50%" height="100px" align="center">
+    <tr>
+        <td class="header">
+            <a href="https://www.youtube.com/@TerminThings">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/YouTube1.png">
+            </a>
+        </td>
+        <td class="header">
+            <a href="Art.html">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/Home1.png">
+            </a>
+        </td>
+        <td class="header">
+            <a href="Videography.html">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/Video1.png">
+            </a>
+        </td>
+        <td class="header cspin3D">
+            <a href="Website Home.html">
+                <img height="125px" width="125px" src="images/logo.png">
+            </a>
+        </td>
+        <td class="header">
+            <a href="Photography.html">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/Photo1.png">
+            </a>
+        </td>
+        <td class="header">
+            <a href="About.html">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/About1.png">
+            </a>
+        </td>
+        <td class="header">
+            <a href="https://www.twitch.tv/termin_gaming">
+                <img onmouseover="mouseoverimg(this)" onmouseout="mouseoutimg(this)" src="./images/Twitch1.png">
+            </a>
+        </td>
+    </tr>
+</table>  
+
+
+
+    <h1>Videography</h1>
+    <div style="position:relative;">
+        <iframe src="https://www.youtube.com/embed/DIkFZ_2ugeY"
+                title="Is Freddy Fazbear a Muppet?" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="vids"></iframe>
+    </div>
+    <br>
+    <p3>This is a short video-essay <br> I made regarding the definition of a Muppet. <br> The answer may surprise you.</p3>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div style="position:relative;">
+        <iframe src="https://www.youtube.com/embed/txCCLd6Rrh8"
+                title="Josh Cohen, Ensemble Sprezzatura, Daniel Abraham: Altissima, Works for High Baroque Trumpet"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="vids"></iframe>
+    </div>
+
+    <br>
+
+    <p3 class="center">I put this together for <br> Chandos Records, Josh Cohen, and Daniel Abraham.<br> They needed footage edited for Josh Cohen's baroque trumpet album, Altissima.</p3>
+
+<script>
+    function mouseoverimg(imgid) {
+         imgid.src=imgid.src.replace("1.png","2.png")
+    }
+    function mouseoutimg(imgid) {
+        imgid.src=imgid.src.replace("2.png", "1.png")
+    }
+</script>
+<audio src="Music/huhneat.mp3" autoplay loop></audio>
+</body>
+</html>
